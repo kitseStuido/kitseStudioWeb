@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+
+/* https://coolors.co/fefffe-242325-4d7c8a-bd897e-ce8147 */
+:root {
+    --main-color: #00B4D8;
+    --accent-color: #bd897e;
+    --white-color: #fefffe;
+    --black-color: #00B4D8;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--main-color);
+    color:  var(--white-color);
+    overflow-x: hidden;
+}

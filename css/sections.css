@@ -1,0 +1,39 @@
+section {
+    min-height: 100vh;
+    -webkit-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    background-color: var(--white-color);
+    color: var(--main-color);
+}
+
+section.active {
+    /* background-color: var(--main-color);
+    color: var(--white-color); */
+}
+
+/* home */
+#home {
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+.background-section-image {
+    object-fit: cover;
+    object-position: center;
+}
+#home article {
+    position: relative;
+}
+
+#home .background-section-image {
+    filter: blur(5px);
+}
+
+#home .logo-main-color {
+    fill: var(--white-color);
+}
+
+#home .logo-detail-color {
+    fill: var(--white-color);
+}
