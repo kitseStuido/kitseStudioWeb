@@ -35,8 +35,6 @@ $(document).ready(() => {
         createContent();
     }
 
-
-
     function scrollTo(href) {
         if (!href) {
             return;
@@ -146,7 +144,5 @@ $(document).ready(() => {
 
         return $gallery;
     }
-
-
 
 });
