@@ -30,6 +30,7 @@ $(document).ready(() => {
 
     // functions
     function init() {
+        loadContent();
         scrollTo(window.location.href);
         createObserver();
         createContent();
@@ -85,6 +86,47 @@ $(document).ready(() => {
                 }
             });
         }
+    }
+
+
+    function loadContent() {
+        return fetch('data/texts-es.json')
+            .then(response => response.json())
+            .then((json) => {
+                setTexts(json);
+            })
+    }
+
+    function setTexts(json) {
+        matchText(document.body, /\{\{(.*?)\}\}/gi, function(match) {
+            var key = match.substring(2, match.length - 2);
+            return (!!json[key]) ? json[key] : match;
+        });
+    }
+
+    // find matching text in given nodeand apply the callback for replacement
+    function matchText(node, regex, callback, excludeElements) {
+        excludeElements || (excludeElements = ['script', 'style', 'iframe', 'canvas', 'svg', 'i']);
+        var child = node.firstChild;
+
+        if (!child) { return node; }
+
+        do {
+            switch (child.nodeType) {
+                case 1: // other html elements
+                    if (excludeElements.indexOf(child.tagName.toLowerCase()) > -1) {
+                        continue;
+                    }
+                    // iterate next element
+                    matchText(child, regex, callback, excludeElements);
+                    break;
+                case 3: // TextNode
+                    child.data = child.data.replace(regex, callback);
+                    break;
+            }
+        } while (!!(child = child.nextSibling));
+
+        return node;
     }
 
     // create content products

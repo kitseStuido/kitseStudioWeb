@@ -24,27 +24,32 @@
                 <i class="fa-solid fa-bars open-icon"></i>
                 <i class="fa-solid fa-xmark close-icon"></i>
             </div>
+
             <ul class="p-20 text-left">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Servicios</a>
+                <li><a href="#home">{{nav-init}}</a></li>
+                <li><a href="#services">{{nav-services}}</a>
                     <ul>
-                        <li><a href="#onlineShop">Tienda Online</a></li>
-                        <li><a href="#printWithUs">Imprime con nosotros</a></li>
+                        <li><a href="#onlineShop">{{nav-services-online-shop}}</a></li>
+                        <li><a href="#printWithUs">{{nav-services-print}}</a></li>
                     </ul>
                 </li>
-                <li><a href="#product">Productos</a>
+                <li><a href="#product">{{nav-products}}</a>
                     <ul>
-                        <li><a href="#figures">Figuras</a></li>
-                        <li><a href="#candles">Velas</a></li>
-                        <li><a href="#jar">Tarros</a></li>
+                        <li><a href="#figures">{{nav-products-figures}}</a></li>
+                        <li><a href="#candles">{{nav-products-candles}}</a></li>
+                        <li><a href="#jar">{{nav-products-jars}}</a></li>
                     </ul>
                 </li>
-                <li><a href="#about">Nosotros</a></li>
-                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#about">{{nav-about}}</a></li>
+                <li><a href="#contact">{{nav-contact}}</a></li>
             </ul>
         </nav>
-        <h1 class="m-l-20">Kitse Studio</h1>
+        <h1 class="m-l-20">{{header-title}}</h1>
     </header>
+
+
+    
+
 
 
     <section id="home" class="align-center justify-center flex-column">
@@ -56,66 +61,124 @@
             <!-- start logo -->
             <img class="w-75" src="images/logo.png" alt="logo Kitse Studio">
             <!-- end logo -->
+
+            <header>
+                <h2 class="m-b-15">{{home-title}}</h2>
+                <p class="m-b-15">{{home-description}}</p>
+            </header>
+
             <p class="m-t-30">
                 En construcción...
             </p>
+
         </article>
 
     </section>
 
-
     <section id="services">
         <header>
-            <h2>Servicios</h2>
+            <h2 class="m-b-15">{{services-title}}</h2>
+            <p class="m-b-15">{{services-description}}</p>
         </header>
     </section>
 
     <section id="onlineShop">
-        <h2>Tienda Online</h2>
+        
+        <header>
+            <h2 class="m-b-15">{{services-online-shop-title}}</h2>
+            <p class="m-b-15">{{services-online-shop-description}}</p>
+        </header>
+        
     </section>
+
     <section id="printWithUs">
-        <h2>Imprime con nosotros</h2>
+        
+        <header>
+            <h2 class="m-b-15">{{services-print-title}}</h2>
+            <p class="m-b-15">{{services-print-description}}</p>
+        </header>
+
     </section>
+
+        
+
+
+
 
 
     <section id="product">
         <header>
-            <h2>Productos</h2>
-
-            <div id="productsHolder"></div>
+            <h2 class="m-b-15">{{products-title}}</h2>
+            <p class="m-b-15">{{products-description}}</p>
         </header>
+
+        <div id="productsHolder"></div>
     </section>
 
     <section id="figures">
         <header>
-            <h2>Figuras</h2>
+            <h2 class="m-b-15">{{products-figures-title}}</h2>
+            <p class="m-b-15">{{products-figures-description}}</p>
         </header>
 
     </section>
 
     <section id="candles">
-        <h2>Velas</h2>
+        
+        <header>
+            <h2 class="m-b-15">{{products-candles-title}}</h2>
+            <p class="m-b-15">{{products-candles-description}}</p>
+        </header>
+
     </section>
 
 
     <section id="jar">
-        <h2>Tarros</h2>
+        
+        <header>
+            <h2 class="m-b-15">{{products-jars-title}}</h2>
+            <p class="m-b-15">{{products-jars-description}}</p>
+        </header>
+
     </section>
 
+    
     <section id="about">
+
         <header>
-            <h2>Qué es Kitse Studio</h2>
+            <h2 class="m-b-15">{{about-title}}</h2>
+            <p class="m-b-15">{{about-description}}</p>
         </header>
     </section>
     <section id="contact">
+        
         <header>
-            <h2>Contacto</h2>
+            <h2 class="m-b-15">{{contact-title}}</h2>
+            <p class="m-b-15">{{contact-description}}</p>
         </header>
+
     </section>
 
 
     <footer>
-        footer
+        
+        <div class="d-flex align-center justify-between p-15 w-100">
+            <div class="d-flex align-center justify-center">
+                <a href="https://www.facebook.com/kitse.studio.1" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/kitse_studio/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UC-_X-_X-_X-_X-_X-_X-_X" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+            <div class="d-flex align-center justify-center">
+                <p>{{legal-footer-content}}</p>
+            </div>
+        </div>
+
     </footer>
 
 

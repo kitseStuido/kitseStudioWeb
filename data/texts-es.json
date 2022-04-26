@@ -1,0 +1,47 @@
+{
+
+    "header-title": "Kitse Studio",
+    
+    "nav-init": "Inicio",
+    "nav-products": "Productos",
+    "nav-products-figures": "Figuras",
+    "nav-products-candles": "Velas",
+    "nav-products-jars": "Tarros",
+    "nav-services": "Servicios",
+    "nav-services-online-shop": "Tienda Online",
+    "nav-services-print": "Imprime con nosotros",
+    "nav-about": "Nosotros",
+    "nav-contact": "contacto",
+
+    "home-title": "Kitse Studio",
+    "home-description": "Kitse Studio es una empresa dedicada a la producción de productos de calidad, con una amplia gama de productos para la decoración de interiores y exteriores. Nuestros productos están hechos con materiales de alta calidad, y son fabricados con materiales de alta resistencia. Nuestros productos son fabricados con materiales de alta calidad, y son fabricados con materiales de alta resistencia.",
+
+    "products-title": "Productos",
+    "products-description": "Nuestros productos",
+
+    "products-figures-title": "Figuras",
+    "products-figures-description": "Nuestras figuras",
+
+    "products-candles-title": "Velas",
+    "products-candles-description": "Nuestras velas",
+
+    "products-jars-title": "Tarros",
+    "products-jars-description": "Nuestros tarros",
+
+    "services-title": "Servicios",
+    "services-description": "Kitse Studio es una empresa dedicada a la producción de sonido, con una amplia experiencia en el sector, y una amplia gama de servicios que le permiten ofrecer a nuestros clientes una solución integral para su producción de sonido.",
+    
+    "services-online-shop-title": "Tienda Online",
+    "services-online-shop-description": "Kitse Studio tiene una tienda online, donde podrá comprar los productos que desee, y además podrá realizar pedidos en línea.",
+ 
+    "services-print-title": "Imprime con nosotros",
+    "services-print-description": "Kitse Studio tiene una gran variedad de productos para imprimir, y además, podrá realizar pedidos en línea.",
+
+    "about-title": "Qué es Kitse Studio",
+    "about-description": "Kitse Studio es una empresa dedicada a la producción de sonido, con una amplia experiencia en el sector, y una amplia gama de servicios que le permiten ofrecer a nuestros clientes una solución integral para su producción de sonido.",
+  
+    "contact-title": "Contacto",
+    "contact-description": "Kitse Studio es una empresa dedicada a la producción de sonido, con una amplia experiencia en el sector, y una amplia gama de servicios que le permiten ofrecer a nuestros clientes una solución integral para su producción de sonido.",
+  
+    "legal-footer-content": "Kitse Studio © 2022 Todos los derechos reservados."
+}
